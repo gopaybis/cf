@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "vpn";
-let APP_DOMAIN = "mr44j.dpdns.org";
+let serviceName = "";
+let APP_DOMAIN = "";
 
 let prxIP = "https://raw.githubusercontent.com/gopaybis/Proxylist/refs/heads/main/proxyiplengkap3.txt";
 let cachedPrxList = [];
